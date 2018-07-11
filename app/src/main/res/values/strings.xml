@@ -1,0 +1,195 @@
+<resources>
+    <string name="app_name">Burning Machine</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="button_send">Submit</string>
+    <string name="username">User Name</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="mymax_verification_message">One Time Password(OTP) for MyMAX7.6 is :</string>
+    <string name="button_label">Login</string>
+    <string name="title_activity_module2">ModuleActivity2</string>
+
+    <string name="title_activity_module">Modules</string>
+    <string name="dummy_button">Mobile Authentication</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_application">SERVICE DESK</string>
+    <string name="title_activity_application3">Self Service - Mobile Application</string>
+    <string name="title_mainactivity_list">Items</string>
+    <string name="title_mainactivity_detail">MainActivity Detail</string>
+    <string name="title_activity_inbox_assignment_list_">Workflow Assignments</string>
+    <string name="title_activity_sms__notification_">SMS Notification Applications</string>
+    <string name="title_activity_main_modules">Main Modules</string>
+    <string name="title_activity_third_party_application">Third Party Applications</string>
+    <string name="title_activity_manager_application">Manager Application</string>
+    <string name="title_activity_admin_application">Admin Application</string>
+    <string name="title_activity_analyst_application">Analyst Application</string>
+    <string name="title_activity_technician_application">Technician Application</string>
+    <string name="title_activity_end_user_application">End User Application</string>
+    <string name="route">Route</string>
+    <string name="title_detailactivity_list">Items</string>
+    <string name="title_detailactivity_detail">detailActivity Detail</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="product_title">JCMAX - Mobile Application</string>
+    <string name="title_activity_modules">Applications</string>
+    <string name="permission_rationale" />
+    <string name="order_id_patient">M2201710396708</string>
+    <string name="action_qualification">Add Qualification</string>
+    <string name="action_registration">Add Registrations</string>
+    <string name="action_speciality">Add Speciality</string>
+    <string name="action_awards_recognitions"><![CDATA[Add Awards & Recognitions]]></string>
+    <string name="action_memberships">Add Memberships</string>
+    <string name="action_experiences">Add Experiences</string>
+    <string name="action_schedules">Add Schedules</string>
+    <string name="action_associations">Add Hospital Association</string>
+    <string name="Visited"> Visited Patients</string>
+    <string name="Appointments"> Patients Appointment</string>
+    <string name="Schedule">Define Schedule</string>
+    <string name="Schedule_list">Define Schedule List</string>
+    <string name="Modules"> Applications</string>
+    <string name="Payments">Payments</string>
+    <string name="logout">LogOut?</string>
+    <string name="profile_move">Profile</string>
+    <string name="addDoctor">Add Doctor?</string>
+    <string name="addDefineSchedule">Define Schedule ?</string>
+    <string name="addRegistration">Add Registration</string>
+
+    <string name="title_activity_moible_authentication">MoibleAuthenticationActivity</string>
+
+    <string name="title_activity_mobile_autheentication">MobileAutheenticationActivity</string>
+
+
+    <string-array name="array_day">
+        <item>Select Day</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+
+    </string-array>
+
+    <string-array name="array_status">
+        <item>Select Status</item>
+        <item>Active</item>
+        <item>InActive</item>
+
+
+    </string-array>
+
+
+    <string-array name="array_duration_in_min">
+        <item>Duration</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+
+
+    </string-array>
+
+
+    <string-array name="array_duration_start_time">
+        <item>Start Time</item>
+
+        <item>6:00 AM</item>
+        <item>6:30 AM</item>
+        <item>7:00 AM</item>
+        <item>7:30 AM</item>
+        <item>8:00 AM</item>
+        <item>8:30 AM</item>
+        <item>9:00 AM</item>
+        <item>9:30 AM</item>
+        <item>10:00 AM</item>
+        <item>10:30 AM</item>
+        <item>11:00 AM</item>
+        <item>11:30 AM</item>
+        <item>12:00 AM</item>
+        <item>12:30 PM</item>
+        <item>01:00 PM</item>
+        <item>1:30 PM</item>
+        <item>2:00 PM</item>
+        <item>2:30 PM</item>
+        <item>3:00 PM</item>
+        <item>3:30 PM</item>
+        <item>4:00 PM</item>
+        <item>4:30 PM</item>
+        <item>5:00 PM</item>
+        <item>5:30 PM</item>
+        <item>6:00 PM</item>
+
+
+    </string-array>
+
+    <string-array name="array_duration_end_time">
+        <item>End Time</item>
+
+        <item>6:00 AM</item>
+        <item>6:30 AM</item>
+        <item>7:00 AM</item>
+        <item>7:30 AM</item>
+        <item>8:00 AM</item>
+        <item>8:30 AM</item>
+        <item>9:00 AM</item>
+        <item>9:30 AM</item>
+        <item>10:00 AM</item>
+        <item>10:30 AM</item>
+        <item>11:00 AM</item>
+        <item>11:30 AM</item>
+        <item>12:00 AM</item>
+        <item>12:30 PM</item>
+        <item>01:00 PM</item>
+        <item>1:30 PM</item>
+        <item>2:00 PM</item>
+        <item>2:30 PM</item>
+        <item>3:00 PM</item>
+        <item>3:30 PM</item>
+        <item>4:00 PM</item>
+        <item>4:30 PM</item>
+        <item>5:00 PM</item>
+        <item>5:30 PM</item>
+        <item>6:00 PM</item>
+
+    </string-array>
+
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">FIND YOUR GYM CENTER</string>
+    <string name="slide_1_desc">Enjoy Better Health. If you exercise on a regular basis, you can keep your bones, joints and muscles strong and enjoy better sleep at night.</string>
+
+    <string name="slide_2_title">FIND YOUR YOGA STUDIOS</string>
+    <string name="slide_2_desc">Builds muscle strength. Strong muscles do more than look good. They also protect us from conditions like arthritis and back pain, and help prevent falls in elderly people.</string>
+
+    <string name="slide_3_title">FIND YOUR SWIMMING POOL</string>
+    <string name="slide_3_desc">The advantages of swimming are such as if you want to lose weight then swimming is the best option. It will provide your body good shape.</string>
+
+    <string name="slide_4_title">FIND YOUR CYCLING CLUB</string>
+    <string name="slide_4_desc">Cycling is mainly an aerobic activity, which means that your heart, blood vessels and lungs all get a workout.</string>
+
+
+    <string name="slide_5_title">FIND YOUR OUTING EVENTS</string>
+    <string name="slide_5_desc">The emotional and physical benefits of adventure sports are impressive such as improved problem solving, increased health and a positive thinking.</string>
+
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="textColorPrimary">#ffffff</color>
+
+    <color name="colorPrimary2">#FF179F78</color>
+    <color name="black_overlay">#ff2c02</color>
+    <color name="darkgreen">#ff000000</color>
+
+    <color name="BaseColor">#000000</color>
+    <color name="Orange">#f26e16</color>
+    <color name="LightCoral">#50aec7</color>
+    <color name="teal">#008080</color>
+    <color name="title_background">#008080</color>
+    <color name="Sky_blue">#3ebffa</color>
+    <color name="N_blue">#fcfcfc</color>
+    <color name="red">#FF0000</color>
+    <color name="dark_blue">#0066FF</color>
+    <color name="blue">#0099FF</color>
+    <color name="helptextblue">#086A87</color>
+    <color name="grey">#f46262</color>
+    <color name="tab_grey">#ffffff</color>
+    <color name="whitegrey">#ffffff</color>
+    <color name="d_grey">#868585</color>
+    <color name="l_grey">#fffefe</color>
+    <color name="bar_blue">#ffffff</color>
+    <color name="blue_detail_inbox_assignment">#fdfdfd</color>
+    <color name="process_grey">#f7f6f6</color>
+    <color name="process_blue_bg">#00ac7a</color>
+    <color name="processborder">#f70d0d</color>
+    <color name="item_layout">#ffffff</color>
+    <color name="item_layout_grey">#ffffff</color>
+    <color name="login_button_green">#ffffff</color>
+
+    <color name="login_button_blue">#111636</color>
+
+    <color name="login_button_green_boundary">#2a5e0f</color>
+
+    <color name="login_button_blue_boundary">#111636</color>
+
+    <color name="login_edittext_grey_background">#f2efef</color>
+    <color name="login_edittext_grey_boundary">#efefef</color>
+
+
+    <!-- <color name="colorPrimary">#594691</color>
+    <color name="colorPrimaryDark">#3e2d70</color>-->
+    <color name="bgBackSideColor">#fffeff</color>
+    <color name="bgTitleLeft">#ffffff</color>
+    <color name="bgTitleRight">#ffffff</color>
+    <color name="bgContentTop">#594691</color>
+    <color name="bgContent">#ffffff</color>
+    <color name="contentDividerLine">#e0e0e0</color>
+    <color name="contentBadgeTitle">#a9a9a9</color>
+    <color name="titleBadgeTitle">#adafb1</color>
+    <color name="titleBadgeText">#ebebec</color>
+    <color name="mainTextColor">#343d43</color>
+    <color name="btnRequest">#f9b809</color>
+    <color name="colorGray">#495C67</color>
+    <color name="colorOrange">#f68159</color>
+    <color name="colorLightGray">#a6abae</color>
+    <color name="colorBackroundWhite">#f0f2ea</color>
+    <!-- <color name="black_overlay">#66000000</color>-->
+
+    <color name="colorPrimary">#28374a</color>
+    <color name="colorPrimaryDark">#28374a</color>
+    <color name="colorAccent">#3abe5d</color>
+    <color name="splashtextviewcolor">#ffffff</color>
+    <color name="header_strip_color">#76c58c</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="album">#76c58c</color>
+    <color name="white">#fdfdfd</color>
+    <color name="offwhite">#cecdcd</color>
+
+
+    <color name="off_white">#f4f2f2</color>
+
+
+
+
+
+
+
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#ffffff</color>
+    <color name="dot_dark_screen2">#ffffff</color>
+    <color name="dot_dark_screen3">#ffffff</color>
+    <color name="dot_dark_screen4">#ffffff</color>
+    <color name="dot_dark_screen5">#ffffff</color>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+        <item>@color/dot_dark_screen5</item>
+    </array>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">@color/header_strip_color</color>
+    <color name="dot_light_screen2">@color/header_strip_color</color>
+    <color name="dot_light_screen3">@color/header_strip_color</color>
+    <color name="dot_light_screen4">@color/header_strip_color</color>
+    <color name="dot_light_screen5">@color/header_strip_color</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+        <item>@color/dot_light_screen5</item>
+    </array>
+
+
+
+
+
+</resources>

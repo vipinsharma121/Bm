@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#28374a"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/header_strip_color"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/leftarrow" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            style="@style/styleHeaderStrip"
+            android:text="CREATE AN ACCOUNT" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:background="#28374a"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/editText"
+            style="@style/smallstyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/forms_edittext_redius"
+            android:drawableLeft="@drawable/iconuser"
+            android:ems="10"
+            android:hint="User name"
+            android:inputType="number"
+            android:paddingLeft="20dp" />
+
+        <EditText
+            android:id="@+id/editTextz"
+            style="@style/smallstyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/forms_edittext_redius"
+            android:drawableLeft="@drawable/iconemail"
+            android:ems="10"
+            android:hint="Email address"
+            android:inputType="number"
+            android:paddingLeft="20dp" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="CREATE AN ACCOUNT \nAND GET BENEFITS OF OUR SERVICES"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/offwhite"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp">
+
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/smallstyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:text="We have sent a * 4 digit otp *" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/smallstyle"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/textView3"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/box_transparent_red_warning"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Edit Mobile Number"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/smallstyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/button2"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignStart="@+id/textView3"
+                android:text="On 9999695091" />
+
+            />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/boxx"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp">
+
+
+            <LinearLayout
+                android:id="@+id/rediusdwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <EditText
+                    android:id="@+id/otp_one_edit_text"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/forms_edittext_redius"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:maxLines="1"
+                    android:nextFocusLeft="@+id/otp_one_edit_text"
+                    android:nextFocusRight="@+id/otp_two_edit_text" />
+
+                <EditText
+                    android:id="@+id/otp_two_edit_text"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/forms_edittext_redius"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:maxLines="1"
+                    android:nextFocusLeft="@+id/otp_one_edit_text"
+                    android:nextFocusRight="@+id/otp_three_edit_text" />
+
+                <EditText
+                    android:id="@+id/otp_three_edit_text"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/forms_edittext_redius"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:maxLines="1"
+                    android:nextFocusLeft="@+id/otp_two_edit_text"
+                    android:nextFocusRight="@+id/otp_four_edit_text" />
+
+                <EditText
+                    android:id="@+id/otp_four_edit_text"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/forms_edittext_redius"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:maxLines="1"
+                    android:nextFocusLeft="@+id/otp_three_edit_text"
+                    android:nextFocusRight="@+id/otp_four_edit_text" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/buttonAccount"
+            style="@style/styleButton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+
+            android:layout_marginTop="50dp"
+            android:background="@drawable/box_transparent"
+            android:text="Create Account" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#28374a"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relative"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_above="@+id/button"
+            android:layout_alignLeft="@+id/editText"
+            android:layout_alignStart="@+id/editText"
+            android:layout_marginBottom="18dp"
+            android:ems="10"
+
+            android:enabled="false"
+            android:textColor="#a7a6a6"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/otp_country_edittext_redius"
+            android:drawableLeft="@drawable/indianflagfinal"
+            android:inputType="textPersonName"
+            android:text="India(+91)" />
+
+
+        <EditText
+            android:id="@+id/editText"
+            style="@style/smallstyle"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="46dp"
+            android:layout_marginStart="46dp"
+
+            android:layout_marginTop="230dp"
+            android:background="@drawable/otp_edittext_redius"
+            android:hint="Enter Mobile Number"
+            android:ems="10"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:textColor="#5c5c5c" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/editText"
+            android:layout_toEndOf="@+id/editText"
+            android:layout_toRightOf="@+id/editText"
+            android:background="@drawable/otp_buttonvarify_redius"
+            style="@style/styleButton"
+            android:textSize="20sp"
+            android:text="verify"
+            android:layout_marginRight="10dp"
+            android:textColorHint="#282222" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/styleB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText"
+            android:layout_alignStart="@+id/editText"
+            android:layout_below="@+id/editText"
+            android:layout_marginTop="34dp"
+            android:textSize="20sp"
+            android:text="A 4-Digit OTP(One Time Password)will be sent via SMS to verify your mobile number"
+            android:textColor="@color/header_strip_color" />
+
+        <!--<ImageView-->
+            <!--android:id="@+id/imageView2"-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="150dp"-->
+            <!--android:layout_below="@+id/textView"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginTop="28dp"-->
+            <!--android:background="@drawable/bird" />-->
+
+
+        <TextView
+            android:id="@+id/nmsfvej"
+            style="@style/styleSplashContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="38dp"
+            android:gravity="center_horizontal"
+            android:text="THANKS FOR GIVING YOUR \nPRECIOUS TIME"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/offwhite"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
+</LinearLayout>

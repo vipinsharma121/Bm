@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edit_message" type="id">xxx-pkumar</item>
+    <item name="menu_logout" type="id">1</item>
+    <item name="menu_refresh" type="id">2</item>
+    <item name="single_toolbar" type="id">Appointments</item>
+</resources>

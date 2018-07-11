@@ -1,0 +1,59 @@
+<resources>
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">5dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">200dp</dimen>
+    <dimen name="item_width">200dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="heading_size_global">15sp</dimen>
+    <dimen name="edittext_size_global">13sp</dimen>
+    <dimen name="folding_cell_title_heading_global">13sp</dimen>
+    <dimen name="folding_cell_title_text_global">10sp</dimen>
+    <dimen name="folding_cell_content_heading_global">12sp</dimen>
+    <dimen name="folding_cell_content_text_global">10sp</dimen>
+
+    <string name="order_id_mock" translatable="false"># 1234–5678</string>
+    <string name="price_mock" translatable="false"></string>
+    <string name="requests_count_mock" translatable="false">Confirmed</string>
+    <string name="requests_count_badge" translatable="false">FEE</string>
+    <string name="weight_mock" translatable="false">Confirmed</string>
+    <string name="weight_badge" translatable="false">STATUS</string>
+    <string name="pledge_mock" translatable="false">$150</string>
+    <string name="pledge_badge" translatable="false">PATIENT</string>
+    <string name="sender_badge" translatable="false">SENDER</string>
+    <string name="client_name_mock" translatable="false">Edward Norton</string>
+    <string name="rating_mock" translatable="false"></string>
+    <string name="from_badge" translatable="false">FROM</string>
+    <string name="to_badge" translatable="false">TO</string>
+    <string name="delivery_date_badge" translatable="false">DELIVERY DATE</string>
+    <string name="delivery_time_mock" translatable="false">6:30 pm</string>
+    <string name="delivery_date_mock" translatable="false">May 16, 2016</string>
+    <string name="deadline_badge" translatable="false">APPOINTMENT DURATION</string>
+    <string name="deadline_time_mock" translatable="false">24 minutes</string>
+    <string name="request_btn_text" translatable="false">View More</string>
+    <string name="btn_annotation_mock" translatable="false">5 people have sent a request</string>
+    <string name="content_from1_mock">W 90th St</string>
+    <string name="content_from2_mock">New York, NY 10025</string>
+    <string name="content_to1_mock">46th Ave</string>
+    <string name="content_to2_mock">Woodside, NY 11101</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+
+    <dimen name="dots_height">50dp</dimen>
+    <dimen name="dots_margin_bottom">5dp</dimen>
+    <dimen name="img_width_height">150dp</dimen>
+    <dimen name="slide_title">25dp</dimen>
+    <dimen name="slide_desc">15dp</dimen>
+    <dimen name="desc_padding">30dp</dimen>
+
+
+    <!--Profile Dimens-->
+    <dimen name="btn_fab_size">56dp</dimen>
+    <dimen name="btn_fab_margins">16dp</dimen>
+    <dimen name="default_elevation">8dp</dimen>
+    <dimen name="comment_avatar_size">56dp</dimen>
+    <dimen name="user_profile_avatar_size">88dp</dimen>
+    <dimen name="global_menu_avatar_size">64dp</dimen>
+    <dimen name="publish_photo_thumbnail_size">96dp</dimen>
+
+</resources>

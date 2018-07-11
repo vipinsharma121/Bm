@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#28374a">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="bottom|center"
+        android:background="#c828374a"
+        android:orientation="vertical">
+        <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imageView1"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+
+            android:layout_below="@+id/doctorId"
+
+            android:layout_centerHorizontal="true"
+
+            android:scaleType="fitCenter"
+            android:src="@drawable/event"
+            app:riv_border_color="#afacac"
+            app:riv_border_width="1dip"
+            app:riv_corner_radius="10dip"
+            app:riv_mutate_background="true" />
+
+
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/find2"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/header_strip_color"
+            android:textSize="@dimen/slide_title"
+            android:layout_marginTop="5dp"
+            android:text="@string/slide_5_title"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="@dimen/desc_padding"
+            android:layout_marginBottom="100dp"
+            android:paddingRight="@dimen/desc_padding"
+            android:text="@string/slide_5_desc"
+            android:textAlignment="center"
+            android:textColor="@color/off_white"
+            android:textSize="@dimen/slide_desc" />
+
+    </LinearLayout>
+
+</RelativeLayout>
